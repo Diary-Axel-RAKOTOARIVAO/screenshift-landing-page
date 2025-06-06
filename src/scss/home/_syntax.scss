@@ -1,3 +1,5 @@
+@use '../shared';
+
 #syntax {
   text-align: center;
   min-height: 50vh;
@@ -7,5 +9,11 @@
   .illustration {
     display: flex;
     justify-content: space-evenly;
+    margin: shared.$spacing-lg;
+  }
+
+  p {
+    max-width: 45ch;
+    margin: 0 auto;
   }
 }

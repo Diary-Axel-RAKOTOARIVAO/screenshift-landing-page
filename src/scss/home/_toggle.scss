@@ -1,0 +1,17 @@
+@use '../shared';
+
+#toggle {
+  text-align: center;
+
+  .content {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  button {
+    width: fit-content;
+    margin: shared.$spacing auto 0;
+  }
+}
