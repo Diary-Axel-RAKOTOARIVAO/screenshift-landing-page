@@ -5,6 +5,7 @@
       "name": "screenshift",
       "dependencies": {
         "@fontsource-variable/inter": "^5.2.5",
+        "@fontsource/kaushan-script": "^5.2.5",
         "iconify-icon": "^3.0.0",
         "sass": "^1.89.1",
         "sass-embedded": "^1.89.1",
@@ -156,6 +157,8 @@
     "@fastify/busboy": ["@fastify/busboy@2.1.1", "", {}, "sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA=="],
 
     "@fontsource-variable/inter": ["@fontsource-variable/inter@5.2.5", "", {}, "sha512-TrWffUAFOnT8zroE9YmGybagoOgM/HjRqMQ8k9R0vVgXlnUh/vnpbGPAS/Caz1KIlOPnPGh6fvJbb7DHbFCncA=="],
+
+    "@fontsource/kaushan-script": ["@fontsource/kaushan-script@5.2.5", "", {}, "sha512-rjpwWMSuLJYa6UT6av1uN3nIcJfyMI+HEq3TUDhdqeK1DuXu4uSV5yPByF8PFADqSXP28WA6Usbb/maaZg7UBg=="],
 
     "@humanfs/core": ["@humanfs/core@0.19.1", "", {}, "sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA=="],
 

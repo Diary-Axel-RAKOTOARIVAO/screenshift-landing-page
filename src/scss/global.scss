@@ -4,6 +4,8 @@
 @use './layout';
 // screenshift for responsive
 @use 'screenshift/scss';
+// home page style
+@use './home';
 
 main {
   display: grid;
