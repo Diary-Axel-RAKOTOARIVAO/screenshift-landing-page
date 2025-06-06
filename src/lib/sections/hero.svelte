@@ -1,3 +1,7 @@
+<script>
+	import HeroCode from '$lib/components/heroCode.svelte';
+</script>
+
 <section id="hero">
 	<div class="content" data-screenshift>
 		<div class="copy">
@@ -6,6 +10,9 @@
 				<h2>Stop wrestling with breakpoints. Just shift.</h2>
 			</div>
 			<div class="actions"></div>
+		</div>
+		<div class="illustration">
+			<HeroCode />
 		</div>
 	</div>
 </section>

@@ -1,4 +1,12 @@
 #hero {
+  min-height: 100vh;
+  display: grid;
+  align-items: center;
+
+  .content {
+    display: flex;
+  }
+
   .text {
     max-width: 75ch;
   }

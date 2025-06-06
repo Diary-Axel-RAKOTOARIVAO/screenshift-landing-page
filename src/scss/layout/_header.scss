@@ -3,6 +3,11 @@
 header {
   height: fit-content;
   padding-top: shared.$spacing;
+  padding-bottom: shared.$spacing;
+  position: fixed;
+  width: 100vw;
+  z-index: 5;
+  background: var(--color-base-100);
 
   nav {
     display: flex;
