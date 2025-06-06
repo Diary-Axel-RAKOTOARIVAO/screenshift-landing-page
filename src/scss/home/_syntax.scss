@@ -1,0 +1,11 @@
+#syntax {
+  text-align: center;
+  min-height: 50vh;
+  display: grid;
+  align-items: center;
+
+  .illustration {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
