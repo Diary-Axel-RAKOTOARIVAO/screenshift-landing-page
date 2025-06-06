@@ -23,3 +23,9 @@
 		</button>
 	</div>
 </section>
+
+<style>
+	h4 {
+		font-weight: 400;
+	}
+</style>
