@@ -1,0 +1,17 @@
+@use '../shared';
+
+footer {
+  margin-top: auto;
+  background: var(--color-base-200);
+  padding: shared.$spacing-xxl 0;
+
+  .author {
+    display: flex;
+    align-items: center;
+    gap: shared.$spacing;
+
+    a {
+      font-weight: 800;
+    }
+  }
+}

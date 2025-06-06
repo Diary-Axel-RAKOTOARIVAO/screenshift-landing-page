@@ -1,2 +1,11 @@
 // base stuff
 @use './shared';
+// layout style
+@use './layout';
+// screenshift for responsive
+@use 'screenshift/scss';
+
+main {
+  display: grid;
+  min-height: 100vh;
+}

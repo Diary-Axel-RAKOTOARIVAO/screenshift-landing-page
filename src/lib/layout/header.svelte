@@ -1,4 +1,4 @@
-<header>
+<header data-screenshift>
 	<nav>
 		<div class="logo">
 			<a href="/">Screenshift</a>
