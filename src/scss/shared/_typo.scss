@@ -1,0 +1,56 @@
+body {
+  font-weight: 400;
+  font-family: 'Inter Variable', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 800;
+}
+
+html {
+  font-size: 100%;
+}
+
+/* 16px */
+
+h1 {
+  font-size: clamp(2rem, 4vw + 0.5rem, 3.5rem);
+  /* ~32px to 56px */
+}
+
+h2 {
+  font-size: clamp(1.75rem, 3vw + 0.5rem, 2.75rem);
+  /* ~28px to 44px */
+}
+
+h3 {
+  font-size: clamp(1.5rem, 2.5vw + 0.4rem, 2.25rem);
+  /* ~24px to 36px */
+}
+
+h4 {
+  font-size: clamp(1.25rem, 2vw + 0.3rem, 1.75rem);
+  /* ~20px to 28px */
+}
+
+h5 {
+  font-size: clamp(1rem, 1.5vw + 0.25rem, 1.333rem);
+  /* ~16px to ~21px */
+}
+
+p,
+button,
+a,
+ul,
+li {
+  font-size: 1rem !important;
+}
+
+small {
+  font-size: 0.750rem;
+  /* 12px */
+}
