@@ -16,13 +16,37 @@
 		}
 	});
 	let value = `
-\`\`\`css
-.testing {
-	background: red;
-	color: white;
-	padding: 10px;
-	border-radius: 5px;
+\`\`\`scss
+
+@use 'screenshift/scss' as *;
+
+.card {
+  display: flex;
+  gap: 2rem;
+
+  // For desktop and below
+  @include max-mq("desktop") {
+    gap: 1.5rem;
+  }
+
+  // For tablets and below
+  @include max-mq("tablet") {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  // For mobile
+  @include max-mq("mobile") {
+    padding: 1rem;
+    background-color: #fef3c7;
+  }
 }
+`;
+	let htmlTemplate = `
+\`\`\`html
+<div class="your-container" data-screenshift>
+   <!--- Your content --->
+  </div>
 `;
 </script>
 
@@ -33,5 +57,8 @@
 <style>
 	:global(.shiki) {
 		background: none !important;
+	}
+	:global(.mockup-code pre) {
+		padding: 0 16px;
 	}
 </style>
