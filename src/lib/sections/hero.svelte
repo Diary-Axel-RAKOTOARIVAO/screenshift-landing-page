@@ -1,5 +1,5 @@
 <script>
-	import HeroCode from '$lib/components/heroCode.svelte';
+	import CodeBlocks from '$lib/components/codeBlocks.svelte';
 </script>
 
 <section id="hero">
@@ -12,7 +12,7 @@
 			<div class="actions"></div>
 		</div>
 		<div class="illustration">
-			<HeroCode />
+			<CodeBlocks />
 		</div>
 	</div>
 </section>

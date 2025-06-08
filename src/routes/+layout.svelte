@@ -9,8 +9,8 @@
 	let { children } = $props();
 </script>
 
+<Header />
 <main>
-	<Header />
 	{@render children()}
-	<Footer />
 </main>
+<Footer />

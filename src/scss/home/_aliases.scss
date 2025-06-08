@@ -1,0 +1,10 @@
+#aliases {
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  p {
+    max-width: 50ch;
+  }
+}

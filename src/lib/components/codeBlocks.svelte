@@ -42,15 +42,9 @@
   }
 }
 `;
-	let htmlTemplate = `
-\`\`\`html
-<div class="your-container" data-screenshift>
-   <!--- Your content --->
-  </div>
-`;
 </script>
 
-<div class="mockup-code">
+<div class="mockup-code w-full">
 	<Markdown {carta} {value} />
 </div>
 

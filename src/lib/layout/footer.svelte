@@ -3,11 +3,11 @@
 </script>
 
 <footer>
-	<section data-screenshift>
+	<article data-screenshift>
 		<div class="author">
 			<div class="avatar">
 				<div class="mask mask-squircle w-16">
-					<img src={Axel} />
+					<img src={Axel} alt="Axel Diary RAKOTOARIVAO" />
 				</div>
 			</div>
 			<div class="by">
@@ -15,5 +15,8 @@
 				<a href="thisis a link">Diary Axel RAKOTOARIVAO</a>
 			</div>
 		</div>
-	</section>
+	</article>
 </footer>
+
+<style>
+</style>

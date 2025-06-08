@@ -10,4 +10,11 @@
 main {
   display: grid;
   min-height: 100vh;
+  gap: calc(shared.$spacing-xxl * 2);
+}
+
+section {
+  min-height: 75vh;
+  display: grid;
+  align-items: center;
 }

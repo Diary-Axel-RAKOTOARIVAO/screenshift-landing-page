@@ -1,0 +1,10 @@
+#pure {
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  h4 {
+    font-weight: 400;
+  }
+}

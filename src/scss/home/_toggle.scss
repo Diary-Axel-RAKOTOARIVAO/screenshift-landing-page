@@ -8,6 +8,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-top: 2px solid color-mix(in srgb, var(--color-secondary), transparent 75%);
+    border-bottom: 2px solid color-mix(in srgb, var(--color-secondary), transparent 75%);
   }
 
   button {
